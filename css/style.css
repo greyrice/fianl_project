@@ -1,0 +1,63 @@
+html{
+    background-image:url("/image/background_image.jpg");
+}
+body{
+    
+    background: radial-gradient(circle, rgba(236, 138, 212, 0.3) 0%, rgba(250, 201, 238, 1) 100%);
+    font-family: 'Indie Flower';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+    padding:0px 10% 0px 10%;
+    
+}
+
+.welcomeImg{
+    width: 640px;
+    height: 600px
+}
+
+main{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+button{
+    font-size: 200%;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color:  rgba(250, 201, 238, 1);
+    font-family: 'Indie Flower';
+    margin-bottom: 160px;
+    margin-top: 40px;
+}
+button:hover{
+    box-shadow: 0px 3px 0px rgb(53, 46, 46);
+    border: 3px solid black;
+}
+
+button:active{
+    background-color: #add8e6;
+    border: 3px solid black;
+}
+
+button:focus{   
+    border: 3px solid;
+}   
+
