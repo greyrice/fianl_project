@@ -1,7 +1,7 @@
 html {
     position: relative;
     height: 100%;
-    background: url("/image/background_image.jpg") ;
+    background: url("../image/background_image.jpg") ;
     
 }
 
@@ -12,7 +12,7 @@ html::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url("/image/background2.png") ;
+    background: url("../image/background2.png") ;
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
