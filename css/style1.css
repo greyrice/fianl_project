@@ -40,7 +40,7 @@ main{
 }
 main h1{
     grid-column: 1/-1;
-    
+    font-size: 100px;
     
 }
 .game{
