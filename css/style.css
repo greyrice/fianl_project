@@ -1,3 +1,4 @@
+
 html{
     background-image:url("../image/background_image.jpg");
 }
@@ -10,16 +11,14 @@ body{
     align-items: center;
     margin: 0px 10% 0px 10%;
     padding:0px 10% 0px 10%;
-    
 }
+
 
 .welcomeImg{
-    width: 640px;
-    height: 600px
+    width: 100px;
+    height: 100px;
 }
-
 main{
-    
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -30,16 +29,12 @@ header{
     justify-content: center;
     
 }
-h1{
-    font-size: 150px;
-    text-align: center;
-    margin-bottom: 0px;
-}
+
 
 button{
-    font-size: 200%;
-    width: 100px;
-    height: 70px;
+    font-size: 100%;
+    width: 50px;
+    height: 30px;
     position: relative;
     margin-bottom: 20px;
     background-color:  rgba(250, 201, 238, 1);
@@ -61,3 +56,18 @@ button:focus{
     border: 3px solid;
 }   
 
+@media screen and (min-width: 750px) {
+    .welcomeImg{
+        width: 640px;
+        height: 600px;
+    }
+    h1{
+        font-size: 150px;
+        margin-bottom: 0px;
+    }
+    button{
+        font-size: 200%;
+        width: 100px;
+        height: 70px;
+    }
+}
