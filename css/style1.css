@@ -17,6 +17,7 @@ html::before {
     background-attachment: fixed;
     z-index: -1;
 }
+
 .skip a{
   position: absolute;
   top: -30px;
@@ -53,14 +54,18 @@ main h1{
     grid-column: 1/-1;
     font-size: 50px;
     
+    
 }
 .game{
     font-size: small;
     display: flex;
     align-items: center;
     border: 2px solid rgba(38, 54, 71, 1);
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 20px;
     position: relative;
+    box-shadow: 0px 10px 10px rgb(85, 78, 78);
+    background-color:rgba(250, 201, 238, 1);
 }
 
 .game::before,.game::after{
@@ -75,8 +80,8 @@ main h1{
 
 
 body .game img{
-    height: 200px;
-    width: 150px;
+    height: 210px;
+    width: 160px;
     transition: transform 0.5s ease-in-out;
 }
 .overlay {
@@ -96,7 +101,7 @@ body .game img{
   }
 
   .game:hover img ,.game:focus{
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   .game:hover .overlay {
