@@ -140,22 +140,23 @@ body .game img{
       column-gap: 5px;
       
   }
-  main h1{
-    grid-column: 1/-1;
-    font-size: 100px;
+    main h1{
+      grid-column: 1/-1;
+      font-size: 100px;
     
   }
-  body .game img{
-    height: 300px;
-    width: 250px;
-    transition: transform 0.5s ease-in-out;
-}
-.game{
-  font-size: large;
-  
-}
-
+    body .game img{
+      height: 300px;
+      width: 250px;
+      
   }
+    .game{
+      font-size: large;
+  
+  } 
+
+
+}
 
 
  
