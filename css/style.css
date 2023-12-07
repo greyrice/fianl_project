@@ -13,7 +13,22 @@ body{
     padding:0px 10% 0px 10%;
 }
 
+:focus{
+    border: solid 2px;
+}
+.skip{
+    position: absolute;
+    top: -30px;
+    background-color: white;
+    border: 2px solid black;
+}
+  
 
+.skip a:focus {
+    position: absolute;
+    top: 10px;
+    
+}
 .welcomeImg{
     width: 100px;
     height: 100px;
@@ -71,3 +86,4 @@ button:focus{
         height: 70px;
     }
 }
+
