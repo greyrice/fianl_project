@@ -126,7 +126,11 @@ body .game img{
     text-decoration: none;
     z-index: 1;
   }
-
+  @media (prefers-reduced-motion: reduce) {
+    .overlay{
+      display: none;
+    }
+}
   @media screen and (min-width: 1200px){
     main{
       display: grid;
@@ -152,5 +156,6 @@ body .game img{
 }
 
   }
+
 
  
