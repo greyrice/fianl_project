@@ -15,7 +15,7 @@ function changeImageSource() {
     }
   
    
-    window.location.href = 'game.html'; // Change to the desired page URL
+    window.location.href = 'game.html'; 
 }
   
 function restoreImage() {

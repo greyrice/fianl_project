@@ -154,10 +154,7 @@ body .game img{
   
   } 
 
-  html::before {
-    background-attachment: scroll; 
-    background-position: center; 
-}
+  
 }
 
 
